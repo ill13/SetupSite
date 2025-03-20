@@ -15,7 +15,7 @@ set -e
 NGINX_SITES_DIR="/etc/nginx/sites-enabled"
 LETSENCRYPT_DIR="/etc/letsencrypt/live"
 WEBROOT_PATH="/var/www/html"  # Standard webroot path
-PARENT_DOMAIN="ill13.com"     # Fixed domain name with two L's
+PARENT_DOMAIN="example.com"     
 EMAIL="admin@${PARENT_DOMAIN}"  # Replace with your email
 RATE_LIMIT="15r/s"  # Default rate limit
 RATE_LIMIT_ZONE="limit_per_ip"
